@@ -6,6 +6,7 @@
 extern "C" {
     #include "bcrypt.h"
     #include "blake.h"
+    #include "blake2b.h"
     #include "c11.h"
     #include "cryptonight.h"
     #include "cryptonight_fast.h"
@@ -107,6 +108,7 @@ using namespace v8;
 
  DECLARE_CALLBACK(bcrypt, bcrypt_hash, 32);
  DECLARE_CALLBACK(blake, blake_hash, 32);
+ DECLARE_CALLBACK(blake2b, blake2b_hash, 32);
  DECLARE_CALLBACK(c11, c11_hash, 32);
  DECLARE_CALLBACK(fresh, fresh_hash, 32);
  DECLARE_CALLBACK(fugue, fugue_hash, 32);
