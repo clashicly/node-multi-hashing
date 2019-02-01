@@ -12,7 +12,7 @@ void blake2b_hash(const char* input, char* hash, uint32_t len)
     blake2b_ctx ctx;
 
     blake2b_init(&ctx, 32, NULL, 0);
-    blake2b_update(&ctx, data, len);
+    blake2b_update(&ctx, input, len);
     blake2b_final(&ctx, hash);
 }
 
