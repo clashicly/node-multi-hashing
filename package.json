@@ -24,6 +24,7 @@
         "bcrypt",
         "keccak",
         "blake",
+        "blake2b",
         "shavite",
         "fugue",
         "sha1"

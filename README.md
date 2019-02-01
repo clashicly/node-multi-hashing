@@ -28,6 +28,7 @@ Algorithms
 * skein
 * groestl
 * blake
+* blake2b
 * fugue
 * qubit
 * hefty1
