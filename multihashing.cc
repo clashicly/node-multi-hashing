@@ -341,6 +341,7 @@ DECLARE_FUNC(boolberry) {
 DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "bcrypt", bcrypt);
     NODE_SET_METHOD(exports, "blake", blake);
+    NODE_SET_METHOD(exports, "blake2b", blake2b);
     NODE_SET_METHOD(exports, "boolberry", boolberry);
     NODE_SET_METHOD(exports, "c11", c11);
     NODE_SET_METHOD(exports, "cryptonight", cryptonight);
