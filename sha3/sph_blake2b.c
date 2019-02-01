@@ -32,7 +32,7 @@
 #include <string.h>
 
 #include "sph_types.h"
-#include "blake2b.h"
+#include "sph_blake2b.h"
 
 // Cyclic right rotation.
 
